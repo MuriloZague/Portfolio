@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root {
+    --bg-body: #010C15;
+    --text-color: #607B96;
+    --border-color: #1E2D3D;
+    --p-dev-color: #43D9AD;
+    --presentation: #E5E9F0;
+    --hover-menu: #5b9ddf;
+    --bg-container: linear-gradient(191deg, rgba(0, 0, 0, 0.692) 0%, rgb(1, 12, 21) 83%);
+}
+
+html, body {
+    height: 100vh;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Fira Code', monospace;
+    background: var(--bg-body);
+    color: var(--text-color);
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+}
+
+.container {
+    background: var(--bg-container);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.container .bg-colors {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+#content-presentation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-top: 60px;
+    cursor: default;
+}
+
+.container #presentation {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.container #presentation p.hi{
+    padding-bottom: 60px;
+    font-size: 30px;
+    color: var(--presentation);
+}
+
+.container #presentation p.dev{
+    font-size: 20px;
+    color: var(--p-dev-color);
+}
+
+.container #presentation h1 {
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 100%;
+    color: var(--presentation);
+}
+
+.container .github {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    gap: 15px;
+    text-align: center;
+}
+
+
+.container .github .githublink {
+    text-align: center;
+    cursor: default;
+    padding: 0px 25px;
+}
+
+
+.container .github .githublink .const {
+    color: #4D5BCE;
+}
+
+.container .github .githublink .var {
+    color: #43D9AD;
+}
+
+.container .github .githublink .value {
+    color: #E99287;
+    text-decoration: none;
+    transition: all 800ms;
+}
+
+.container .github .githublink .value:hover{
+    text-align: center;
+    filter: drop-shadow(0px -0px 10px);
+}
+
+.github-responsive {
+    display: none;
+}
+
+.cards {
+    display: none;
+}
+
+.container {
+    padding-bottom: 70px;
+}
+
+li a {
+    color: var(--text-color);
+}
+
+li a:hover {
+    color: var(--hover-menu);
+}
+
+@media screen and (min-width: 1035px) {
+    .container {
+        padding: 0 50px;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .container .github {
+        display: none;
+    }
+
+    .container .github-responsive {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        gap: 15px;
+        padding-top: 50px;
+        cursor: default;
+    }
+    .container .github-responsive .githublink {
+        cursor: default;
+    }
+    
+    
+    .container .github-responsive .githublink .const {
+        color: #4D5BCE;
+    }
+    
+    .container .github-responsive .githublink .var {
+        color: #43D9AD;
+    }
+    
+    .container .github-responsive .githublink .value {
+        color: #E99287;
+        text-decoration: none;
+        transition: all 800ms;
+    }
+    
+    .container .github-responsive .githublink .value:hover{
+        text-align: center;
+        filter: drop-shadow(0px -0px 10px);
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    pre {
+        width: 550px;
+        font-family: 'Fira Code', monospace;
+        background-color: #010c156d;
+        font-size: 16px;
+        padding: 20px 30px;
+        border-radius: 5px;
+        letter-spacing: 0.2px;
+        border: 1px solid var(--border-color);
+        cursor: default;
+    }
+
+    .card-key {
+        color: #00ffb3;
+    }
+
+    .card-tags {
+        color: #6a67f4;
+    }
+
+    .card-cont {
+        color: #f68282;
+    }
+    
+    
+    h1 {
+        padding-right: 80px;
+    }
+
+    h1 br {
+        display: none;
+    }
+}
+
