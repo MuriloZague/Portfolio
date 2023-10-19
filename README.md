@@ -1,4 +1,4 @@
 <h1>Portfólio</h1>
-Meu simples portfólio, atualizado constantemente
+Meu portfólio, atualizado constantemente. Acesse!:
 
 https://portfolio-murilozague.netlify.app/
