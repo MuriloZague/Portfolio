@@ -68,7 +68,7 @@ body {
 
 .container #presentation p.hi{
     padding-bottom: 50px;
-    font-size: 30px;
+    font-size: 35px;
     color: var(--presentation);
 }
 
@@ -227,3 +227,46 @@ li a:hover {
     }
 }
 
+@media screen and (max-width: 1034px) {
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    pre {
+        width: 330px;
+        font-family: 'Fira Code', monospace;
+        background-color: #010c156d;
+        font-size: 12px;
+        padding: 17px 19px;
+        border-radius: 5px;
+        letter-spacing: 0.2px;
+        border: 1px solid var(--border-color);
+        cursor: default;
+    }
+
+    .card-key {
+        color: #00ffb3;
+    }
+
+    .card-tags {
+        color: #6a67f4;
+    }
+
+    .card-cont {
+        color: #f68282;
+    }
+    
+    
+    h1 {
+        padding-right: 80px;
+    }
+
+    h1 br {
+        display: none;
+    }
+}
