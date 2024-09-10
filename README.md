@@ -5,15 +5,15 @@
 <h3 align="center">Tecnologias Utilizadas:</h3>
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=vscode" height="40" alt="react logo"  />
+  <img src="https://skillicons.dev/icons?i=vscode" height="40" alt="vscode logo"  />
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=react" height="40" alt="vscode logo"  />
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=vite" height="40" alt="vite logo"  />
   <img width="12" />
-  <img src="https://skillicons.dev/icons?i=tailwind" height="40" alt="vscode logo"  />
+  <img src="https://skillicons.dev/icons?i=tailwind" height="40" alt="tailwind logo"  />
   <img width="12" />
-  <img src="https://skillicons.dev/icons?i=bun" height="40" alt="vscode logo"  />
+  <img src="https://skillicons.dev/icons?i=bun" height="40" alt="bun logo"  />
 </div>
 
 <br><br>
