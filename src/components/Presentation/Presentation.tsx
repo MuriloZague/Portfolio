@@ -1,5 +1,3 @@
-import Perfil from '../../../icons/perfil.jpeg';
-
 export default function Presentation() {
     
  return (
