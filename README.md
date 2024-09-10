@@ -1,3 +1,23 @@
+<h1 align="center">Meu Portfólio</h1>
+
+<p align="center"><a target="_blank" href="https://murilozague.vercel.app">https://murilozague.vercel.app</a></p>
+
+<h3 align="center">Tecnologias Utilizadas:</h3>
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=vscode" height="40" alt="react logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=react" height="40" alt="vscode logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=vite" height="40" alt="vite logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=tailwind" height="40" alt="vscode logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=bun" height="40" alt="vscode logo"  />
+</div>
+
+<br><br>
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
