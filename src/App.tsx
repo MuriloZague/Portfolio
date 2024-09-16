@@ -12,7 +12,7 @@ import JS from '../icons/JAVASCRIPT.svg'
 import PYTHON from '../icons/PYTHON.svg'
 
 const habilidadesTech = [
-  { src: HTML, width: 90 },
+  { src: HTML, width: 95 },
   { src: CSS, width: 85 },
   { src: REACT, width: 100 },
   { src: JS, width: 150 },
@@ -44,7 +44,9 @@ function App() {
       />
 
       <Presentation />
+
       <About />
+      
       <Info 
         name={'Meus Projetos'}
         text={projetosPessoais}

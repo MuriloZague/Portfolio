@@ -6,6 +6,7 @@ type TechProps = {
 export default function Tech({name, icons}: TechProps) {
  return (
   <section className="w-full max-w-fit flex flex-row justify-center mt-8 cursor-default">
+
     <div className="mt-2">
     <p className="mb-3">// {name}:</p>
     <div className='flex gap-3'>
