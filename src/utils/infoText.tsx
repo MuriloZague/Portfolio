@@ -14,7 +14,7 @@ export default function InfoText({texts}: InfoProps ){
           <span className="text-emerald-300">{text.title}</span> = 
         <a 
           href={text.href}
-          className="text-violet-500" 
+          className="text-violet-500 hover:text-blue-400 duration-500" 
           target="_blank"> "{text.link}"
         </a>
       </div>

@@ -34,3 +34,25 @@ body {
 .textoAbout {
   font-size: 17px;
 }
+
+.me {
+  height: 230px;
+  border: 2px solid #43D9AD;
+  border-radius: 100%;
+  position: absolute;
+  left: 12%;
+  top: 10%;
+  transition: 300ms;
+}
+.me:hover {
+    transform: scale(105%);
+    border: 2px solid #43D9AD;
+    border-radius: 80px;
+}
+
+
+@media (max-width: 1250px) {
+  .me{
+    display: none;
+  }
+}

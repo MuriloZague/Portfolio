@@ -3,6 +3,7 @@ import Experience from "./components/Experience/Experience"
 import Info from "./components/Info/Info"
 import Presentation from "./components/Presentation/Presentation"
 import Tech from "./components/Technologies/Tech"
+import me from '../icons/perfil.jpeg'
 
 import HTML from '../icons/HTML.svg'
 import CSS from '../icons/CSS.svg'
@@ -12,9 +13,9 @@ import PYTHON from '../icons/PYTHON.svg'
 
 const habilidadesTech = [
   { src: HTML, width: 90 },
-  { src: CSS, width: 80 },
+  { src: CSS, width: 85 },
   { src: REACT, width: 100 },
-  { src: JS, width: 160 },
+  { src: JS, width: 150 },
 ];
 
 const estudandoTech = [
@@ -22,7 +23,7 @@ const estudandoTech = [
 ]
 
 const projetosPessoais = [
-  { title: 'SCRSYSTEM', link: 'github.com/SCRSYSTEM', href: 'https://github.com/MuriloZague/SCRSYS' },
+  { title: 'EldenQuiz', link: 'github.com/EldenQuizApp', href: 'https://github.com/MuriloZague/elden-quiz' },
   { title: 'RocketSeat', link: 'github.com/DoList', href: 'https://github.com/MuriloZague/todolist_rocket' },
   { title: 'BOT Python', link: 'github.com/BotPython', href: 'https://github.com/MuriloZague/Bot-simples-para-envio-de-emails' },
 ]
@@ -36,6 +37,11 @@ const contatosPessoais = [
 function App() {
   return (
     <div className="w-1/3 m-auto">
+
+      <img 
+        className="me"
+        src={me}
+      />
 
       <Presentation />
       <About />
