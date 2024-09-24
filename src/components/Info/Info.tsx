@@ -10,13 +10,12 @@ type InfoProps = {
 export default function Info({name, text}: InfoProps) {
 
  return (
-   <section className="w-full max-w-fit flex flex-row justify-center mt-8 cursor-default">
+   <section className="w-full max-w-fit flex flex-row justify-center mt-8 cursor-default info">
     <div className="mt-3">
     <p className="mb-2">// {name}:</p>
       <InfoText
         texts={text}
       />
-
     </div>
    </section>
  );

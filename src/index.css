@@ -31,13 +31,12 @@ body {
   color: #607B96;
 }
 
-
 .me {
   height: 230px;
   border: 2px solid #43D9AD;
   border-radius: 100%;
   position: absolute;
-  left: 12%;
+  left: 10%;
   top: 10%;
   transition: 300ms;
 }
@@ -47,9 +46,46 @@ body {
     border-radius: 80px;
 }
 
-
-@media (max-width: 1250px) {
-  .me{
+@media (max-width: 920px) {
+  .developer {
+    margin-top: 8px;
+  }
+  .imgme {
+    margin-top: 30px;
+    width: 100%;
+    position: relative;
+    display: flex;
+  }
+  .me {
+    left: 28%;
+    width: 150px;
+    height: 150px;
+  }
+  .main {
+    width: 88%;
+    text-align: center;
+  }
+  .presentation {
+    text-align: center;
+  }
+  .presentationsec {
+    margin-top: 170px;
+  }
+  *{
+    font-size: 15px;
+  }
+  .const {
     display: none;
+  }
+  .tech, .info {
+    max-width: none;
+  }
+  .icons {
+    gap: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .tech {
+    margin-top: 25px;
   }
 }

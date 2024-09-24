@@ -10,7 +10,7 @@ export default function InfoText({texts}: InfoProps ){
       {texts.map((text, index) => (
 
         <div className="mb-1" key={index}>
-          <span className="text-indigo-600">const </span>
+          <span className="text-indigo-600 const">const </span>
           <span className="text-emerald-300">{text.title}</span> = 
         <a 
           href={text.href}

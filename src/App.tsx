@@ -15,7 +15,7 @@ const habilidadesTech = [
   { src: HTML, width: 95 },
   { src: CSS, width: 85 },
   { src: REACT, width: 100 },
-  { src: JS, width: 150 },
+  { src: JS, width: 145 },
 ];
 
 const estudandoTech = [
@@ -36,14 +36,16 @@ const contatosPessoais = [
 
 function App() {
   return (
-    <div className="w-1/3 m-auto">
-
-      <img 
-        className="me"
-        src={me}
-      />
-
-      <Presentation />
+    <div className="w-1/3 m-auto main">
+      <div className="imgme">
+        <div>
+          <img 
+            className="me"
+            src={me}
+          />
+        </div>
+      </div>
+      <Presentation/>
 
       <About />
       
