@@ -88,4 +88,8 @@ body {
   .tech {
     margin-top: 25px;
   }
+  .exp {
+    display: flex;
+    justify-content: center;
+  }
 }

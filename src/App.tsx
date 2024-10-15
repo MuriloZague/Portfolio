@@ -11,6 +11,7 @@ import REACT from '../icons/REACT.svg'
 import JS from '../icons/JAVASCRIPT.svg'
 import PYTHON from '../icons/PYTHON.svg'
 
+
 const habilidadesTech = [
   { src: HTML, width: 95 },
   { src: CSS, width: 85 },
