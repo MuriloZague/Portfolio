@@ -66,6 +66,7 @@ function App() {
         name={'Contatos'}
         text={contatosPessoais}
       />
+      
       <Experience />
     </div>
   )
