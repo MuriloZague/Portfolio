@@ -5,11 +5,11 @@ type TechProps = {
 
 export default function Tech({name, icons}: TechProps) {
  return (
-  <section className="w-full max-w-fit flex flex-row justify-center mt-8 cursor-default tech">
+  <section className="max-w-full flex mt-8 cursor-default tech">
 
     <div className="mt-2">
     <p className="mb-3">// {name}:</p>
-    <div className='flex gap-3 icons'>
+    <div className='flex gap-2 icons flex-wrap'>
         {icons.map((icon, index) => (
             <img
                 key={index}

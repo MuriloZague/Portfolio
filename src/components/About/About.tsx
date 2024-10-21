@@ -1,6 +1,6 @@
 export default function About() {
  return (
-  <section className="w-full max-w-fit flex flex-row justify-center mt-8 cursor-default">
+  <section className="w-full max-w-fit flex flex-row justify-center mt-6 cursor-default">
   <div className='flex flex-col'>
     <div className="mt-5">
       <p className="mb-2">// Sobre mim:</p>

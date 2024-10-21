@@ -10,13 +10,14 @@ import CSS from '../icons/CSS.svg'
 import REACT from '../icons/REACT.svg'
 import JS from '../icons/JAVASCRIPT.svg'
 import PYTHON from '../icons/PYTHON.svg'
-
+import REACTNATIVE from '../icons/REACT NATIVE.svg'
 
 const habilidadesTech = [
   { src: HTML, width: 95 },
   { src: CSS, width: 85 },
   { src: REACT, width: 100 },
   { src: JS, width: 145 },
+  { src: REACTNATIVE, width: 160 }
 ];
 
 const estudandoTech = [
@@ -24,6 +25,7 @@ const estudandoTech = [
 ]
 
 const projetosPessoais = [
+  {title: 'Receitalhada', link: 'github.com/Receitalhada', href: 'https://github.com/MuriloZague/receitalhada'},
   { title: 'EldenQuiz', link: 'github.com/EldenQuizApp', href: 'https://github.com/MuriloZague/elden-quiz' },
   { title: 'RocketSeat', link: 'github.com/DoList', href: 'https://github.com/MuriloZague/todolist_rocket' },
   { title: 'BOT Python', link: 'github.com/BotPython', href: 'https://github.com/MuriloZague/Bot-simples-para-envio-de-emails' },

@@ -87,6 +87,7 @@ body {
   }
   .tech {
     margin-top: 25px;
+    justify-content: center;
   }
   .exp {
     display: flex;
