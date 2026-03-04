@@ -39,7 +39,7 @@ const contatosPessoais = [
 
 function App() {
   return (
-    <div className="w-1/3 m-auto main">
+    <div className="w-1/3 m-auto main flex flex-col gap-3">
       <div className="imgme">
         <div>
           <img 
