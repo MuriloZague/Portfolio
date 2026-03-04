@@ -1,10 +1,10 @@
 export default function About() {
  return (
-  <section className="w-full max-w-fit flex flex-row justify-center mt-6 cursor-default">
+  <section className="w-full max-w-fit flex flex-row justify-center mt-4 cursor-default">
   <div className='flex flex-col'>
     <div className="mt-5">
       <p className="mb-2">// Sobre mim:</p>
-      <p className="text-white text-base textoabout">Sou um entusiasta da área da tecnologia,
+      <p className="text-white text-[1.12rem] textoabout">Sou um entusiasta da área da tecnologia,
 atualmente cursando Sistemas para Internet
 e imerso nos estudos em Desenvolvimento Web. Busco
 constantemente desafios que me permitam

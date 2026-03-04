@@ -11,24 +11,27 @@ import REACT from '../icons/REACT.svg'
 import JS from '../icons/JAVASCRIPT.svg'
 import PYTHON from '../icons/PYTHON.svg'
 import REACTNATIVE from '../icons/REACT NATIVE.svg'
+import JAVA from '../icons/JAVA.svg'
 
 const habilidadesTech = [
   { src: HTML, width: 95 },
   { src: CSS, width: 85 },
   { src: REACT, width: 100 },
   { src: JS, width: 145 },
-  { src: REACTNATIVE, width: 160 }
+  { src: REACTNATIVE, width: 160 },
 ];
 
 const estudandoTech = [
   { src: PYTHON, width: 120},
+    { src: JAVA, width: 85 }
 ]
 
 const projetosPessoais = [
+  {title: 'MineWrapped', link: 'www.minewrapped.com', href: 'https://www.minewrapped.com'},
   {title: 'Receitalhada', link: 'github.com/Receitalhada', href: 'https://github.com/MuriloZague/receitalhada'},
   { title: 'EldenQuiz', link: 'github.com/EldenQuizApp', href: 'https://github.com/MuriloZague/elden-quiz' },
-  { title: 'RocketSeat', link: 'github.com/DoList', href: 'https://github.com/MuriloZague/todolist_rocket' },
-  { title: 'BOT Python', link: 'github.com/BotPython', href: 'https://github.com/MuriloZague/Bot-simples-para-envio-de-emails' },
+  { title: 'Dopaminer', link: 'github.com/Dopaminer', href: 'https://github.com/MuriloZague/dopaminer' },
+  { title: 'MHW-API', link: 'github.com/MHW-API', href: 'https://github.com/MuriloZague/MHW-API' },
 ]
 
 const contatosPessoais = [
@@ -39,7 +42,7 @@ const contatosPessoais = [
 
 function App() {
   return (
-    <div className="w-1/3 m-auto main">
+    <div className="w-1/3 m-auto main flex flex-col gap-3">
       <div className="imgme">
         <div>
           <img 
@@ -53,7 +56,7 @@ function App() {
       <About />
       
       <Info 
-        name={'Meus Projetos'}
+        name={'Meus Principais Projetos'}
         text={projetosPessoais}
       />
       <Tech 
