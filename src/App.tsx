@@ -25,10 +25,11 @@ const estudandoTech = [
 ]
 
 const projetosPessoais = [
+  {title: 'MineWrapped', link: 'www.minewrapped.com', href: 'https://www.minewrapped.com'},
   {title: 'Receitalhada', link: 'github.com/Receitalhada', href: 'https://github.com/MuriloZague/receitalhada'},
   { title: 'EldenQuiz', link: 'github.com/EldenQuizApp', href: 'https://github.com/MuriloZague/elden-quiz' },
-  { title: 'RocketSeat', link: 'github.com/DoList', href: 'https://github.com/MuriloZague/todolist_rocket' },
-  { title: 'BOT Python', link: 'github.com/BotPython', href: 'https://github.com/MuriloZague/Bot-simples-para-envio-de-emails' },
+  { title: 'Dopaminer', link: 'github.com/Dopaminer', href: 'https://github.com/MuriloZague/dopaminer' },
+  { title: 'MHW-API', link: 'github.com/MHW-API', href: 'https://github.com/MuriloZague/MHW-API' },
 ]
 
 const contatosPessoais = [
@@ -53,7 +54,7 @@ function App() {
       <About />
       
       <Info 
-        name={'Meus Projetos'}
+        name={'Meus Principais Projetos'}
         text={projetosPessoais}
       />
       <Tech 
