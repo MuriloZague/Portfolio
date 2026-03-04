@@ -11,17 +11,19 @@ import REACT from '../icons/REACT.svg'
 import JS from '../icons/JAVASCRIPT.svg'
 import PYTHON from '../icons/PYTHON.svg'
 import REACTNATIVE from '../icons/REACT NATIVE.svg'
+import JAVA from '../icons/JAVA.svg'
 
 const habilidadesTech = [
   { src: HTML, width: 95 },
   { src: CSS, width: 85 },
   { src: REACT, width: 100 },
   { src: JS, width: 145 },
-  { src: REACTNATIVE, width: 160 }
+  { src: REACTNATIVE, width: 160 },
 ];
 
 const estudandoTech = [
   { src: PYTHON, width: 120},
+    { src: JAVA, width: 85 }
 ]
 
 const projetosPessoais = [
