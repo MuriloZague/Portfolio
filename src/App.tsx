@@ -38,6 +38,7 @@ const contatosPessoais = [
   { title: 'Linkedin', link: 'murilo-zague', href: 'https://www.linkedin.com/in/murilo-zague/' },
   { title: 'Instagram', link: 'murilo-bz', href: 'https://www.instagram.com/murilo_bz/' },
   { title: 'E-mail', link: 'zaguemurilo7@gmail.com', href: 'zaguemurilo7@gmail.com' },
+  { title: 'Github', link: 'github.com/MuriloZague', href: 'https://github.com/MuriloZague' },
 ]
 
 function App() {
