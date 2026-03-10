@@ -5,7 +5,7 @@ export default function Presentation() {
     <div className='flex flex-col'>
       <div className="presentation">
         <p className="text-white text-xl">Olá!<span className="animate-wave inline-block">👋</span> Eu sou </p>
-        <span className="text-white text-6xl">Murilo Zague</span>
+        <span className="text-white text-7xl">Murilo Zague</span>
         <p className="text-emerald-300 text-xl animate-pulse developer">&gt; Web-Developer</p>
       </div>
       <div className="mt-6">
